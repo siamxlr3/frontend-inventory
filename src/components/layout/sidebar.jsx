@@ -15,11 +15,6 @@ const Sidebar = () => {
                         </Link>
                     </li>
                     <li className="flex items-center space-x-3 hover:bg-gray-800 p-2 rounded-lg cursor-pointer">
-                        <Link to="/category">
-                            <span>category</span>
-                        </Link>
-                    </li>
-                    <li className="flex items-center space-x-3 hover:bg-gray-800 p-2 rounded-lg cursor-pointer">
                         <Link to="/product">
                             <span>product</span>
                         </Link>
@@ -82,6 +77,11 @@ const Sidebar = () => {
                     <li className="flex items-center space-x-3 hover:bg-gray-800 p-2 rounded-lg cursor-pointer">
                         <Link to="/retail-customer">
                             <span>retail-customer</span>
+                        </Link>
+                    </li>
+                    <li className="flex items-center space-x-3 hover:bg-gray-800 p-2 rounded-lg cursor-pointer">
+                        <Link to="/category">
+                            <span>category</span>
                         </Link>
                     </li>
                 </ul>

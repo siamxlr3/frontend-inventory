@@ -49,9 +49,6 @@ const StockList = () => {
                         <TableHead>Due_Amount</TableHead>
                         <TableHead>Status</TableHead>
                         <TableHead>Transaction</TableHead>
-                        <TableHead>WareHouse</TableHead>
-                        <TableHead>Supplier</TableHead>
-                        <TableHead>Product</TableHead>
                         <TableHead>Action</TableHead>
                     </TableRow>
                 </TableHeader>
